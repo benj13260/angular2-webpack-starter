@@ -14,9 +14,9 @@ self.addEventListener('install', function(event) {
         'index.html',
         'polyfills.bundle.js',
         'vendor.bundle.js',
-        'main.bundle.js',
+        'main.bundle.js' ,
         'assets/img/angularclass-avatar.png',
-        'assets/img/orbium_logo.png',
+        //'assets/img/orbium_logo.png',
 
         // Cache resources can be from other origins.
         // This is a no-cors request, meaning it doesn't need

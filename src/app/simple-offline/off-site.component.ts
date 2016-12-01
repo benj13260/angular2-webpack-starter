@@ -6,7 +6,7 @@ import {AngularIndexedDB} from 'angular2-indexeddb';
     selector: 'off-site',
     template: `
 
-    <img height="84" width="175" alt="home" src="../../assets/img/orbium_logo.png">
+    <img height="84" width="175" alt="home" [src]="angularclassLogo">
     
     <form #f="ngForm" (ngSubmit)="add(f)" novalidate>
       <input name="first" ngModel required #first="ngModel">
@@ -29,6 +29,7 @@ import {AngularIndexedDB} from 'angular2-indexeddb';
 })
 
 export class OffSiteComponent implements OnInit{
+  angularclassLogo = 'assets/img/angularclass-avatar.png';
 
   db : any;
   items : any[] = [];

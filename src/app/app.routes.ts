@@ -4,7 +4,7 @@ import { AboutComponent } from './about';
 import { NoContentComponent } from './no-content';
 
 import { DataResolver } from './app.resolver';
-import {OffSiteComponent} from "./simple/off-site.component";
+import {OffSiteComponent} from "./simple-offline/off-site.component";
 
 
 export const ROUTES: Routes = [

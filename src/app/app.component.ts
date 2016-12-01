@@ -31,7 +31,7 @@ import { AppState } from './app.service';
       |
       <span>
         <a [routerLink]=" ['./form'] ">
-          Home
+          Form
         </a>
       </span>
       |
