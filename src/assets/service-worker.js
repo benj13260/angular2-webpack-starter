@@ -17,6 +17,7 @@ self.addEventListener('install', function(event) {
         'main.bundle.js',
         'assets/img/angularclass-avatar.png',
         'assets/img/orbium_logo.png',
+
         // Cache resources can be from other origins.
         // This is a no-cors request, meaning it doesn't need
         // CORS headers to be stored in the cache
